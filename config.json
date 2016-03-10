@@ -1,0 +1,27 @@
+{
+  "bridge": {
+    "name":     "Homebridge",
+    "username": "CC:22:3D:E3:CE:30",
+    "port":     51826,
+    "pin":      "031-45-154"
+  },
+
+  "description": "MiLight Control",
+
+  "platforms": [
+    {
+      "platform": "MiLight",
+      "name":     "電気",
+      "bridges": [
+        {
+          "ip_adress": "10.0.1.8",
+          "port":      8899,
+          "type":      "rgbw",
+          "delay":     30,
+          "repeat":    5,
+          "zones":     ["リビング"]
+        }
+      ]
+    }
+  ]
+}
