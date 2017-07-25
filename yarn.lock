@@ -89,11 +89,11 @@ has-ansi@^2.0.0:
   dependencies:
     ansi-regex "^2.0.0"
 
-homebridge-milight@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/homebridge-milight/-/homebridge-milight-1.0.1.tgz#e4d0aae138a426fe656ee439eb824dc7447e629c"
+homebridge-milight@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/homebridge-milight/-/homebridge-milight-1.1.0.tgz#429be384c50b1966415412601630f335b9afc1e1"
   dependencies:
-    node-milight-promise "^0.1.1"
+    node-milight-promise "^0.2.2"
 
 homebridge@^0.4.22:
   version "0.4.22"
@@ -142,9 +142,9 @@ nan@~2.3.0:
   version "2.3.5"
   resolved "https://registry.yarnpkg.com/nan/-/nan-2.3.5.tgz#822a0dc266290ce4cd3a12282ca3e7e364668a08"
 
-node-milight-promise@^0.1.1:
-  version "0.1.5"
-  resolved "https://registry.yarnpkg.com/node-milight-promise/-/node-milight-promise-0.1.5.tgz#e0b7ad9392c198362f4ac968ae9d2ff7b565e019"
+node-milight-promise@^0.2.2:
+  version "0.2.2"
+  resolved "https://registry.yarnpkg.com/node-milight-promise/-/node-milight-promise-0.2.2.tgz#4bed2046227b96ce7697e2f6c736ddfcac01465c"
   dependencies:
     bluebird "^3.5.0"
     promise-retryer "0.0.1"
