@@ -51,6 +51,10 @@ debug@^2.2.0:
   dependencies:
     ms "2.0.0"
 
+decimal.js@^7.2.3:
+  version "7.2.3"
+  resolved "https://registry.yarnpkg.com/decimal.js/-/decimal.js-7.2.3.tgz#6434c3b8a8c375780062fc633d0d2bbdb264cc78"
+
 ed25519@^0.0.4:
   version "0.0.4"
   resolved "https://registry.yarnpkg.com/ed25519/-/ed25519-0.0.4.tgz#e56218ace2fc903d259593aef0b2a9639f475beb"
@@ -70,13 +74,14 @@ fast-srp-hap@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/graceful-readlink/-/graceful-readlink-1.0.1.tgz#4cafad76bc62f02fa039b2f94e9a3dd3a391a725"
 
-hap-nodejs@0.4.27:
-  version "0.4.27"
-  resolved "https://registry.yarnpkg.com/hap-nodejs/-/hap-nodejs-0.4.27.tgz#57189dbc2c8e81f08f811614dc3cc20c5d0f37bf"
+hap-nodejs@0.4.32:
+  version "0.4.32"
+  resolved "https://registry.yarnpkg.com/hap-nodejs/-/hap-nodejs-0.4.32.tgz#3dec4aaac7cb9565d5d2eb8c4df4279666b52218"
   dependencies:
     buffer-shims "^1.0.0"
     curve25519-n2 "^1.1.2"
     debug "^2.2.0"
+    decimal.js "^7.2.3"
     ed25519 "^0.0.4"
     fast-srp-hap "^1.0.1"
     ip "^1.1.3"
@@ -95,13 +100,13 @@ homebridge-milight@^1.1.0:
   dependencies:
     node-milight-promise "^0.2.2"
 
-homebridge@^0.4.22:
-  version "0.4.22"
-  resolved "https://registry.yarnpkg.com/homebridge/-/homebridge-0.4.22.tgz#fd0146d1a1688b3e37895f438e16ba386fdb59cb"
+homebridge@^0.4.27:
+  version "0.4.27"
+  resolved "https://registry.yarnpkg.com/homebridge/-/homebridge-0.4.27.tgz#c6856aab837f2a25e4d2efaee824bca52f55e603"
   dependencies:
     chalk "^1.1.1"
     commander "2.8.1"
-    hap-nodejs "0.4.27"
+    hap-nodejs "0.4.32"
     node-persist "^0.0.8"
     semver "5.0.3"
 

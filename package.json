@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "homebridge": "^0.4.22",
+    "homebridge": "^0.4.27",
     "homebridge-milight": "^1.1.0"
   }
 }
