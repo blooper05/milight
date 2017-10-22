@@ -100,9 +100,9 @@ homebridge-milight@^1.1.0:
   dependencies:
     node-milight-promise "^0.2.2"
 
-homebridge@^0.4.28:
-  version "0.4.28"
-  resolved "https://registry.yarnpkg.com/homebridge/-/homebridge-0.4.28.tgz#57b9b973134dfd759b8ae023b2f41bf6bf667d39"
+homebridge@^0.4.29:
+  version "0.4.29"
+  resolved "https://registry.yarnpkg.com/homebridge/-/homebridge-0.4.29.tgz#0df5d1e81a7c708fdeb9fe8181b192194b16598b"
   dependencies:
     chalk "^1.1.1"
     commander "2.8.1"
