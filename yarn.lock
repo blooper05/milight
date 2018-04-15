@@ -74,9 +74,9 @@ fast-srp-hap@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/graceful-readlink/-/graceful-readlink-1.0.1.tgz#4cafad76bc62f02fa039b2f94e9a3dd3a391a725"
 
-hap-nodejs@0.4.33:
-  version "0.4.33"
-  resolved "https://registry.yarnpkg.com/hap-nodejs/-/hap-nodejs-0.4.33.tgz#c129b47b676198870e8911d0709f7d45afa28bb9"
+hap-nodejs@0.4.41:
+  version "0.4.41"
+  resolved "https://registry.yarnpkg.com/hap-nodejs/-/hap-nodejs-0.4.41.tgz#af0dc07fbc5e0d48998cbcf38717adea077336b2"
   dependencies:
     buffer-shims "^1.0.0"
     curve25519-n2 "^1.1.2"
@@ -94,20 +94,21 @@ has-ansi@^2.0.0:
   dependencies:
     ansi-regex "^2.0.0"
 
-homebridge-milight@^1.1.0:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/homebridge-milight/-/homebridge-milight-1.1.0.tgz#429be384c50b1966415412601630f335b9afc1e1"
+homebridge-milight@^1.1.4:
+  version "1.1.4"
+  resolved "https://registry.yarnpkg.com/homebridge-milight/-/homebridge-milight-1.1.4.tgz#1af6730598473aa78b95158fbd9bcb65dafc837b"
   dependencies:
-    node-milight-promise "^0.2.2"
+    node-milight-promise "^0.3.0"
 
-homebridge@^0.4.29:
-  version "0.4.29"
-  resolved "https://registry.yarnpkg.com/homebridge/-/homebridge-0.4.29.tgz#0df5d1e81a7c708fdeb9fe8181b192194b16598b"
+homebridge@^0.4.38:
+  version "0.4.38"
+  resolved "https://registry.yarnpkg.com/homebridge/-/homebridge-0.4.38.tgz#5738b862496f3360ff6c037cfa096d2f6b556a25"
   dependencies:
     chalk "^1.1.1"
     commander "2.8.1"
-    hap-nodejs "0.4.33"
+    hap-nodejs "0.4.41"
     node-persist "^0.0.8"
+    qrcode-terminal "^0.11.0"
     semver "5.0.3"
 
 ip@^1.1.3:
@@ -147,9 +148,9 @@ nan@~2.3.0:
   version "2.3.5"
   resolved "https://registry.yarnpkg.com/nan/-/nan-2.3.5.tgz#822a0dc266290ce4cd3a12282ca3e7e364668a08"
 
-node-milight-promise@^0.2.2:
-  version "0.2.2"
-  resolved "https://registry.yarnpkg.com/node-milight-promise/-/node-milight-promise-0.2.2.tgz#4bed2046227b96ce7697e2f6c736ddfcac01465c"
+node-milight-promise@^0.3.0:
+  version "0.3.1"
+  resolved "https://registry.yarnpkg.com/node-milight-promise/-/node-milight-promise-0.3.1.tgz#2f7345a3964e08cb9480147cab1ee67ae51e59f1"
   dependencies:
     bluebird "^3.5.0"
     promise-retryer "0.0.1"
@@ -181,6 +182,10 @@ promise-retryer@0.0.1:
 q@~1.1.1:
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/q/-/q-1.1.2.tgz#6357e291206701d99f197ab84e57e8ad196f2a89"
+
+qrcode-terminal@^0.11.0:
+  version "0.11.0"
+  resolved "https://registry.yarnpkg.com/qrcode-terminal/-/qrcode-terminal-0.11.0.tgz#ffc6c28a2fc0bfb47052b47e23f4f446a5fbdb9e"
 
 semver@5.0.3:
   version "5.0.3"
