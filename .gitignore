@@ -203,10 +203,8 @@ GitHub.sublime-settings
 
 ### Vim ###
 # swap
-[._]*.s[a-v][a-z]
-[._]*.sw[a-p]
-[._]s[a-v][a-z]
-[._]sw[a-p]
+.sw[a-p]
+.*.sw[a-p]
 # session
 Session.vim
 # temporary
@@ -242,5 +240,6 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+
 
 # End of https://www.gitignore.io/api/node,sublimetext,vim,visualstudiocode,jetbrains,linux,osx,windows
